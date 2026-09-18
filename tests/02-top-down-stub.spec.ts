@@ -52,17 +52,17 @@ test('Top-Down STUB: Login REAL -> Inventory STUB', async ({ page }) => {
 
         <meta charset="utf-8">
 
-        <title>Stub Inventory</title>
+        <title>Stub cart</title>
 
       </head>
 
       <body>
 
-        <h1>Stub Inventory</h1>
+        <h1>Stub cart</h1>
 
         <div class="inventory_list" data-test="stub-inventory">
 
-          Fake Inventory from Stub B
+          warinyupha sonumka 
 
         </div>
 
@@ -88,7 +88,7 @@ test('Top-Down STUB: Login REAL -> Inventory STUB', async ({ page }) => {
 
     page.locator('[data-test="stub-inventory"]')
 
-  ).toContainText('Fake Inventory from Stub B');
+  ).toContainText('warinyupha sonumka ');
 
 });
 
